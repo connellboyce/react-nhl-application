@@ -10,6 +10,6 @@ import java.util.List;
 
 @CrossOrigin
 @RepositoryRestResource(collectionResourceRel = "teams", path = "teams")
-public interface TeamRepository extends PagingAndSortingRepository {
+public interface TeamRepository extends PagingAndSortingRepository<Team, Long> {
     List<Team> findByName(@Param("name") String name);
 }
