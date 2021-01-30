@@ -50,5 +50,5 @@ Start the project
 mvn spring-boot run
 ```
 
-### Further Documentation
-[Development Log](documentation/DEVELOPMENT-LOG.md)
+### Implementation Details
+[Server-Side Development Log](documentation/SPRING-BOOT-SERVER-SIDE-DEV-LOG.md)
