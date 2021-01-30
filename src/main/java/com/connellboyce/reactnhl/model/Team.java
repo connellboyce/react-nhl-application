@@ -3,6 +3,7 @@ package com.connellboyce.reactnhl.model;
 import javax.persistence.Id;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import java.util.Objects;
 import java.util.StringJoiner;
 
 @Entity
@@ -54,5 +55,20 @@ public class Team {
                 .add("abbreviation='" + abbreviation + "'")
                 .add("logoURL='" + logoURL + "'")
                 .toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Team team = (Team) o;
+        return Objects.equals(id, team.id) &&
+                Objects.equals(name, team.name) &&
+                Objects.equals(location, team.location);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, location);
     }
 }
