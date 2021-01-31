@@ -10,3 +10,8 @@ npm install -g npm-windows-upgrade
 npm-windows-upgrade
 ```
 
+### Create ReactJS App from project directory
+```bash
+npx create-react-application frontend
+```
+- You will see a frontend folder in your directory containing initial react files.
