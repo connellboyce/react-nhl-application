@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+img.teamLogo {
+  width: 50px;
+}
