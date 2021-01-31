@@ -51,4 +51,5 @@ mvn spring-boot run
 ```
 
 ### Implementation Details
-[Server-Side Development Log](documentation/SPRING-BOOT-SERVER-SIDE-DEV-LOG.md)
+- [Server-Side Development Log](documentation/SPRING-BOOT-SERVER-SIDE-DEV-LOG.md)
+- [Client-Side Development Log](documentation/REACT-CLIENT-SIDE-DEV-LOG.md)
